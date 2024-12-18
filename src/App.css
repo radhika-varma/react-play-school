@@ -1,0 +1,78 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-top: 5px solid #6200ea;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-us,
+  .newsletter,
+  .useful-links {
+    width: 30%;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p,
+  a {
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .newsletter-form button {
+    padding: 10px;
+    color: white;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #e64a19;
+  }
+  
+  .useful-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .useful-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .useful-links ul li a:hover {
+    color: #6200ea;
+  }
+  
+  .social-links a {
+    color: #555;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .social-links a:hover {
+    color: #6200ea;
+  }
+  
